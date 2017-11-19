@@ -19,8 +19,9 @@ header {
 }
 header h2 {
   background-color: #2AB546;
+  text-align: center;
   color: white;
-  height:100px;
+  height: 100px;
   padding: 30px;
 }
 body{
@@ -28,6 +29,7 @@ body{
 }
 main .card-header {
   background-color: white;
+  color: #2AB546;
 }
 main .card1 {
    margin-top: 40px;
@@ -35,6 +37,7 @@ main .card1 {
  }
 main .card2 {
    margin-top: 40px;
+   margin-bottom: 40px;
  }
 p {
    line-height: 1.75em;
@@ -55,20 +58,13 @@ header .nav-link {
   padding: 7px 1rem;
 }
 
-header nav.bg-dark {
-   display: block;
-   margin-top: 20px;
+header nav.bg-dark  {
+  margin: 20px 0px;
+  display: block;
  }
-
 .profilePicture {
    border-radius: 20px;
  }
-.connectWithMe {
-   background-color: darkblue;
- }
- .card-header {
-  color: #2AB546;
-}
 .nav-link:hover {
   color: white;
   text-shadow: 1px 1px 1px black;
@@ -83,6 +79,7 @@ opacity: 0.5;
 }
 
 footer {
+  position: sticky;
   border-top-style: solid;
   border-top-color: #2AB546;
   border-top-width: 5px;
