@@ -81,8 +81,8 @@ textarea {
    border-radius: 20px;
 }
 .github, .stackoverflow, .linkedin {
-width: 55px;
-height: 55px;
+  height: 100%;
+  width: 100%;
 }
 .github:hover, .stackoverflow:hover, .linkedin:hover {
 opacity: 0.5;
