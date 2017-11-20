@@ -32,6 +32,9 @@ body{
 p {
    line-height: 1.75em;
  }
+ main .card {
+   border: 0.5px solid lightgrey;
+ }
 header, main .card1, main .card2 {
    border-bottom-width: 3.5px;
    border-bottom-style: solid;
