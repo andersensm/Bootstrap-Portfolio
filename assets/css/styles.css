@@ -82,7 +82,7 @@ textarea {
 }
 .github, .stackoverflow, .linkedin {
   height: 100%;
-  width: 100%;
+  width: 75%;
 }
 .github:hover, .stackoverflow:hover, .linkedin:hover {
 opacity: 0.5;
