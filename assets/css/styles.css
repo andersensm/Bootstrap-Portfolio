@@ -25,6 +25,7 @@ header h2 {
   color: white;
   padding: 30px;
   margin-bottom: 0;
+  height: 100%;
 }
 body{
   background-image: url("../images/dust_scratches.png");
