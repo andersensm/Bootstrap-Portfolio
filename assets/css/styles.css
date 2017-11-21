@@ -42,7 +42,8 @@ header, main .card1, main .card2 {
  }
 header .nav-link {
   color: #2AB546;
-  padding: 7px 1.5rem;
+  border: .5px solid #343a40;
+
 }
 header nav.bg-dark  {
   margin: 20px 0px;
@@ -81,18 +82,19 @@ textarea {
   min-width: 100%;
 }
 .profilePicture {
-   border-radius: 20px;
+  border-radius: 20px;
 }
 .github, .stackoverflow, .linkedin {
   height: 100%;
-  width: 75%;
+  width: 100%;
 }
 .github:hover, .stackoverflow:hover, .linkedin:hover {
 opacity: 0.5;
 }
 .beach, .burger, .dog, .nightlife, .music {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
 }
 .images-relative {
   position: relative;
@@ -103,7 +105,7 @@ opacity: 0.5;
   width: 96%;
   height:15%;
   color: #2AB546;
-  font-size: 26px;
+  font-size: 2rem;
   background: white;
   text-align: center;
 }
@@ -114,7 +116,7 @@ opacity: 0.5;
   width: 96%;
   height:15%;
   color: #2AB546;
-  font-size: 26px;
+  font-size: 2rem;
   background: white;
   text-align: center;
 }
@@ -131,4 +133,25 @@ footer p {
 text-align: center !important;
 margin-top: 30px;
 color: white;
+}
+
+@media screen and (max-width:768px) {
+.absolute1, .absolute3, .absolute5 {
+  width: 90%;
+  font-size: 1.25rem;
+}
+.absolute2, .absolute4 {
+  width: 90%;
+  font-size: 1.25rem;
+}
+}
+@media screen and (max-width:640px) {
+.absolute1, .absolute3, .absolute5 {
+  width: 96%;
+  font-size: 2rem;
+}
+.absolute2, .absolute4 {
+  width: 96%;
+  font-size: 2rem;
+}
 }
