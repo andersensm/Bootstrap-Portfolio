@@ -82,6 +82,7 @@ textarea {
   min-width: 100%;
 }
 .profilePicture {
+  width: 100%;
   border-radius: 20px;
 }
 .github, .stackoverflow, .linkedin {
@@ -130,28 +131,36 @@ footer {
   height: 100px;
 }
 footer p {
-text-align: center !important;
-margin-top: 30px;
-color: white;
+  text-align: center !important;
+  margin-top: 30px;
+  color: white;
 }
-
+@media screen and (max-width:992px) {
+  .absolute1, .absolute3, .absolute5 {
+    width: 96%;
+    font-size: 1.75rem;
+  }
+  .absolute2, .absolute4 {
+    width: 96%;
+    font-size: 1.75rem;
+}
+}
 @media screen and (max-width:768px) {
-.absolute1, .absolute3, .absolute5 {
-  width: 90%;
-  font-size: 1.25rem;
-}
-.absolute2, .absolute4 {
-  width: 90%;
-  font-size: 1.25rem;
-}
+  .absolute1, .absolute3, .absolute5 {
+    width: 93%;
+    font-size: 1.25rem;
+  }
+  .absolute2, .absolute4 {
+    width: 93%;
+    font-size: 1.25rem;
 }
 @media screen and (max-width:640px) {
-.absolute1, .absolute3, .absolute5 {
-  width: 96%;
-  font-size: 2rem;
-}
-.absolute2, .absolute4 {
-  width: 96%;
-  font-size: 2rem;
+  .absolute1, .absolute3, .absolute5 {
+    width: 96%;
+    font-size: 2rem;
+  }
+  .absolute2, .absolute4 {
+    width: 96%;
+    font-size: 2rem;
 }
 }
